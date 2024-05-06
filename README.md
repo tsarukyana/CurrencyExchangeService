@@ -51,7 +51,7 @@ sudo supervisorctl update
 ```sh
 php artisan app:fetch-exchange-rates
 ```
-13. Open url http://127.0.0.1:8000/api/rates or filtering by exchange_date http://127.0.0.1:8000/api/rates?exchange_date=2024-05-07 
+13. Open url http://127.0.0.1:8000/api/rates or filtering by exchange date http://127.0.0.1:8000/api/rates?date=2024-05-07 
 
 
 
