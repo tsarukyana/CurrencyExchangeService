@@ -48,7 +48,7 @@ class ExchangeRate extends Model
      */
     public function setValueAttribute(string $value): void
     {
-        $this->attributes['value'] = (int)(10_000 * str_replace(',', '.', $value));
+        $this->attributes['value'] = (int)(10_000 * (float)str_replace(',', '.', $value));
     }
 
     /**
@@ -59,7 +59,7 @@ class ExchangeRate extends Model
      */
     public function setVunitRateAttribute(string $value): void
     {
-        $this->attributes['vunit_rate'] = (int)(1_000_000 * str_replace(',', '.', $value));
+        $this->attributes['vunit_rate'] = (int)(1_000_000 * (float)str_replace(',', '.', $value));
     }
 
     /**

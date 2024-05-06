@@ -52,6 +52,7 @@ sudo supervisorctl update
 php artisan app:fetch-exchange-rates
 ```
 13. Open url http://127.0.0.1:8000/api/rates or filtering by exchange date http://127.0.0.1:8000/api/rates?date=2024-05-07 
+14. For analyze the code you can run `./vendor/bin/phpstan analyse` command. TODO: need to create tests for whole functionality.
 
 
 
